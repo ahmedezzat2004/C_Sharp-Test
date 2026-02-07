@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="C#Day02-test/C#Day02-test.csproj" />
   <Project Path="C#Day03-test/C#Day03-test.csproj" Id="8a0c998b-7b3d-4c93-bc25-f970913c196e" />
+  <Project Path="C#Day04-test/C#Day04-test.csproj" Id="5eb4a48a-6b65-433d-914e-2093a02041ce" />
 </Solution>
