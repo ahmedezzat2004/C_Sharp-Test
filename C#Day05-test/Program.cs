@@ -15,8 +15,8 @@ namespace C_Day05_test
                 int num11 = int.Parse(Console.ReadLine());
                 Console.WriteLine("Enter another number :");
                 int num12 = int.Parse(Console.ReadLine());
-                int result = num11 / num12;
-                Console.WriteLine("result: " + result);
+                int result1 = num11 / num12;
+                Console.WriteLine("result: " + result1);
             }
             catch (DivideByZeroException ex)
             {
@@ -344,15 +344,15 @@ namespace C_Day05_test
 
                 for (int i = 1; i <= 12; i++)
                 {
-                    int result = num * i;
+                    int result2 = num * i;
 
                     if (i < 12)
                     {
-                        Console.Write(result + ", ");
+                        Console.Write(result2 + ", ");
                     }
                     else
                     {
-                        Console.Write(result);
+                        Console.Write(result2);
                     }
                 }
                 Console.WriteLine();
